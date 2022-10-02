@@ -1,0 +1,136 @@
+@media only screen and (max-width: 650px){
+
+}
+.about{
+    position: absolute;
+}
+
+.author div img{
+    width: 100%;
+    position: relative;
+}
+.authorimg{
+    border-radius: 50%;
+    border: 5px solid darkcyan;
+    overflow: hidden;
+    width: 250px;
+    left: 50%;
+    justify-content: center;
+}
+.author{
+    justify-content: center;
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.about{
+    height: 100%;
+    position: absolute;
+    display: block;
+    width: 100%;
+}
+.authordetails{
+    width: 250px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: xx-large;
+    border-bottom: 5px solid black;
+}
+.authordetails h1{
+    display: inline;
+}
+@media only screen and (max-width: 650px)
+{
+    .authordetails h1{
+        font-size: xx-large;
+    }
+    .authordetails h6{
+        font-size: x-large;
+    }
+}
+.authordetails span{
+    text-align: center;
+    font-size: xx-small!important;
+    padding: 5px;
+    text-align: justify;
+    display: block;
+}
+.authordetails span p{
+    font-size: 1.5em;
+    font-weight: 100;
+}
+.authordetails ul>li{
+    list-style: none;
+    justify-content: center;
+    display: inline;
+    padding: 5px;
+}
+.authordetails ul{
+    margin: 20px;
+}
+.authordetails ul>li a{
+    color: black;
+    display: inline-block;
+}
+.authordetails h1{
+    border-bottom: 5px solid black;
+    padding: 10px 0px 10px 0px;
+}
+.authordetails span{
+    margin-top: 25px;
+}
+.authordetails span h6{
+    font-size: 1.5rem;
+}
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 5rem;
+    text-align: center;
+    background-color: black;
+    overflow: hidden;
+    display: block;
+    bottom: 0px;
+    margin: none;
+    padding: 20px 0px 20px 0px!important;
+}
+.about{
+    height: 80%;
+}
+.footer span{
+    position: absolute;
+    font-size: smaller;
+    top:60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 20px;
+    color:rgb(220, 220, 220);
+}
+@media only screen and (min-width: 650px)
+{
+    .authorimg{
+        left: 150px;
+    }
+    .footer{
+        
+    }
+    .author{
+        top: 30%;
+        width: 100%;
+        height: min-content;
+        display: inline-flex;
+        padding: 20px 0px 20px 0px;
+        justify-content: space-around;
+    }
+    .authordetails{
+        width: 50%;
+        padding: 10px;
+    }
+    .authordetails h1{
+        width: 50%!important;
+    }
+
+}

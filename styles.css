@@ -1,0 +1,265 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    overflow-x: hidden;
+}
+body{
+    overflow-x: hidden;
+}
+.header h1{
+    text-transform: capitalize;
+    display: inline-flex;
+    margin-left: 25px;
+    border: 3px solid white;
+    border-radius: 3px;
+    padding: 5px;
+}
+.header{
+    border-bottom: 3 solid grey;
+}
+.header h1 span:last-child{
+    color: black;
+    border-radius: 3px;
+    background-color: orangered;
+    padding: 3px 5px 3px 0px;
+}
+.header h1 span:first-child{
+    padding: 3px 5px 3px 3px;
+    color: orangered;
+    background-color: black;
+}
+.header{
+    background-color: black;
+    padding: 1em 0em 1em 0em;
+    width: 100%;
+    display: block;
+}
+
+.menu ul>li i{
+    color: gainsboro;
+    margin-right: 5px;
+}
+
+.menubtn{
+    width: max-content;
+}
+.menubtn>span, .menubtnx>span{
+    font-size: 3em;
+    position: absolute;
+    color: gray;
+    background-color: black;
+    padding: 0px 15px 5px 15px;
+    right: 10px;
+    top: 15px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.menubtnx>span{
+    font-size: 2.8;
+}
+.menubtnx{
+    display: none;
+}
+.menu{
+    background-color: black;
+    position: absolute;
+    width: 100%;
+}
+
+.menu ul>li a{
+    text-transform: capitalize;
+    color: gainsboro;
+    text-decoration: none;
+    padding: .5em;
+}
+
+.images, .videos, .stars, .about{
+    margin-top: 10px;
+}
+.images ul>li{
+    display: inline;
+    padding: .5em;
+    margin-top: .5em;
+    padding: none;
+    margin: none;
+}
+.images ul>li img{
+    max-width: 45vh!important;
+    border: 2px solid black;
+}
+.menu ul>li:hover{
+    border-bottom: 5px solid red;
+    
+}
+.menu ul>li:active{
+    border-bottom: 5px solid red;
+}
+.active{
+    border-bottom: 5px solid gray;
+}
+.menu {
+    display: none;
+}
+.videos ul>li video{
+    margin-top: 10px;
+    width: 40%;
+}
+.videos ul{
+    display: inline;
+}
+.videos ul>li{
+    padding: none;
+    display: inline;
+    margin: 10px 0px 0px 10px;
+}
+.videos ul>li video{
+    border-bottom: 5px solid rgb(61, 13, 235);
+}
+.stars ul>li div:first-child{
+    display: inline-block;
+    background-color: black;
+    width: 5rem!important;
+    height: 5rem!important;
+    border-radius: 50%!important;
+    border: 5px solid black;
+    overflow: hidden;
+}
+.stars ul>li span{
+    width: 200px;
+    display: block;
+}
+.stars ul>li div img{
+    position: relative;
+    width: 100%;
+    max-height: 6em!important;
+    overflow-y: hidden;
+}
+.stars ul>li{
+    background-color: gainsboro;
+    text-transform: capitalize;
+    display: inline-flex;
+    width: 100%;
+    padding: .5em;
+}
+.stars ul>li span{
+    padding: .5em;
+    width: 75%;
+    cursor: pointer;
+}
+.stars ul>li span h3, .stars ul>li span p{
+    display: block;
+}
+.stars ul>li span h3{
+    text-decoration: underline;
+    color: brown;
+}
+#stars{
+    margin-top: 10px;
+    width: fit-content;
+}
+@media only screen and (min-width: 650px)
+{
+    .menu ul>li{
+        display: inline;
+    }
+    .menu ul>li{
+        font-size: .9em;
+    }
+
+    .menubtn, .menubtnx{
+        display: none!important;
+    }
+    .menu{
+        display: inline;
+        width: fit-content;
+        text-align: right;
+        right: 20px;
+    }
+    .menu{
+        display: inline!important;
+    }
+    .menu ul{
+        padding: 1.7em 0em 1em 0em;
+    }
+    .uc h1{
+        font-size: 10rem;
+    }
+    .authordetails h1{
+        font-size: xx-large!important;
+    }
+}
+@media only screen and (max-width: 650px)
+{
+    .menu{
+        background-color: rgba(0,0,0, 0.8)!important;
+    }
+    .menu ul>li{
+        width: 90%;
+        margin-left: 15px;
+        margin-top: 3px;
+        overflow-x: hidden;
+    }
+    .menu ul>li a{
+        display: inline;
+        padding-right: 45vh;
+    }
+    .menu ul>li a{
+        display: flex;
+    }
+    .menu ul{
+        margin-top: 2em;
+        margin-bottom: 1em;
+        width: 100%;
+    }
+    .images{
+        margin-top: 20px;
+    }
+    .images ul>li img{
+        width: 200px;
+    }
+    .menubtn{
+        display: block;
+    }
+    .menubtnx{
+        display: none;
+    }
+    .images ul>li{
+        justify-content: center;
+        width: 100%!important;
+    }
+    .videos ul>li video{
+        width: 95%;
+    }
+    .images ul>li img{
+        width: 100%!important;
+    }
+    .uc h1{
+        font-size: 6rem;
+    }
+}
+
+.menu ul>li a i{
+    padding-top: 2px;
+}
+
+.uc{
+    width: 100%;
+    height: 85%;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+}
+.uc h1{
+    margin-left: 0;
+    text-transform: capitalize;
+    width: fit-content;
+    position: absolute;
+    overflow-y: hidden;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
